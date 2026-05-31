@@ -1,0 +1,51 @@
+name: Deploy to Goldsky
+
+on:
+  push:
+    tags:
+      - 'sg-*'
+      - 'all-*'
+
+jobs:
+  deploy:
+    name: Deploy Subgraph
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/subgraph
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm install --workspaces=false --ignore-scripts
+
+      - name: Install Goldsky CLI
+        run: npm install -g @goldskycom/cli
+
+      - name: Codegen
+        run: npm run codegen
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to Goldsky
+        env:
+          GOLDSKY_API_KEY: ${{ secrets.GOLDSKY_API_KEY }}
+        run: |
+          # extract version from tag (e.g. v1.0.0 -> v1.0.0)
+          VERSION=${GITHUB_REF#refs/tags/}
+
+          echo "Deploying version: $VERSION"
+
+          # Authenticate
+          goldsky login --token $GOLDSKY_API_KEY
+
+          # Deploy directly using the CLI
+          # Note: We are already in apps/subgraph due to defaults.run.working-directory
+          goldsky subgraph deploy dd-deposits-subgraph/$VERSION --path .

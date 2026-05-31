@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Avoid wasting crawl budget on Next.js internals
+Disallow: /_next/

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Treasure Chest</title>
+  <rect x="6" y="22" width="52" height="30" rx="6" fill="#8C4A1F" stroke="#3B1D0C" stroke-width="4"/>
+  <path d="M8 28h48" stroke="#C28B55" stroke-width="4" stroke-linecap="round"/>
+  <path d="M16 22c0-10 8-18 16-18s16 8 16 18" fill="#B86A2C" stroke="#3B1D0C" stroke-width="4"/>
+  <path d="M28 38h8v10h-8z" fill="#F9D66A" stroke="#3B1D0C" stroke-width="3"/>
+  <circle cx="32" cy="43" r="2" fill="#3B1D0C"/>
+</svg>

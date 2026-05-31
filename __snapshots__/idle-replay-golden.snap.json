@@ -1,0 +1,180 @@
+{
+  "seed": 90210,
+  "ticks": 16,
+  "tickMs": 1000,
+  "difficultyTier": "hell_1",
+  "leverageTotal": 5,
+  "finalStateHash": "e819f581",
+  "frames": [
+    {
+      "tick": 0,
+      "now": 1000000,
+      "playerHp": 100,
+      "playerMana": 50,
+      "enemyHp": 120,
+      "runStatus": "active",
+      "encounterCompleted": false,
+      "stateHash": "a8abcd14"
+    },
+    {
+      "tick": 1,
+      "now": 1001000,
+      "playerHp": 70,
+      "playerMana": 56,
+      "enemyHp": 110,
+      "runStatus": "active",
+      "encounterCompleted": false,
+      "stateHash": "4b0c30b8"
+    },
+    {
+      "tick": 2,
+      "now": 1002000,
+      "playerHp": 40,
+      "playerMana": 62,
+      "enemyHp": 100,
+      "runStatus": "active",
+      "encounterCompleted": false,
+      "stateHash": "7954525d"
+    },
+    {
+      "tick": 3,
+      "now": 1003000,
+      "playerHp": 10,
+      "playerMana": 68,
+      "enemyHp": 90,
+      "runStatus": "active",
+      "encounterCompleted": false,
+      "stateHash": "901fa36a"
+    },
+    {
+      "tick": 4,
+      "now": 1004000,
+      "playerHp": 0,
+      "playerMana": 74,
+      "enemyHp": 80,
+      "runStatus": "dead",
+      "encounterCompleted": false,
+      "stateHash": "2e61f6b1"
+    },
+    {
+      "tick": 5,
+      "now": 1005000,
+      "playerHp": 0,
+      "playerMana": 74,
+      "enemyHp": 80,
+      "runStatus": "dead",
+      "encounterCompleted": false,
+      "stateHash": "1cd45a31"
+    },
+    {
+      "tick": 6,
+      "now": 1006000,
+      "playerHp": 0,
+      "playerMana": 74,
+      "enemyHp": 80,
+      "runStatus": "dead",
+      "encounterCompleted": false,
+      "stateHash": "621e3cb1"
+    },
+    {
+      "tick": 7,
+      "now": 1007000,
+      "playerHp": 0,
+      "playerMana": 74,
+      "enemyHp": 80,
+      "runStatus": "dead",
+      "encounterCompleted": false,
+      "stateHash": "89ed9c31"
+    },
+    {
+      "tick": 8,
+      "now": 1008000,
+      "playerHp": 0,
+      "playerMana": 74,
+      "enemyHp": 80,
+      "runStatus": "dead",
+      "encounterCompleted": false,
+      "stateHash": "488e7db1"
+    },
+    {
+      "tick": 9,
+      "now": 1009000,
+      "playerHp": 0,
+      "playerMana": 74,
+      "enemyHp": 80,
+      "runStatus": "dead",
+      "encounterCompleted": false,
+      "stateHash": "3700e131"
+    },
+    {
+      "tick": 10,
+      "now": 1010000,
+      "playerHp": 0,
+      "playerMana": 74,
+      "enemyHp": 80,
+      "runStatus": "dead",
+      "encounterCompleted": false,
+      "stateHash": "73bcf5c1"
+    },
+    {
+      "tick": 11,
+      "now": 1011000,
+      "playerHp": 0,
+      "playerMana": 74,
+      "enemyHp": 80,
+      "runStatus": "dead",
+      "encounterCompleted": false,
+      "stateHash": "196b0c61"
+    },
+    {
+      "tick": 12,
+      "now": 1012000,
+      "playerHp": 0,
+      "playerMana": 74,
+      "enemyHp": 80,
+      "runStatus": "dead",
+      "encounterCompleted": false,
+      "stateHash": "5ec93e01"
+    },
+    {
+      "tick": 13,
+      "now": 1013000,
+      "playerHp": 0,
+      "playerMana": 74,
+      "enemyHp": 80,
+      "runStatus": "dead",
+      "encounterCompleted": false,
+      "stateHash": "20628fa1"
+    },
+    {
+      "tick": 14,
+      "now": 1014000,
+      "playerHp": 0,
+      "playerMana": 74,
+      "enemyHp": 80,
+      "runStatus": "dead",
+      "encounterCompleted": false,
+      "stateHash": "fd0dad41"
+    },
+    {
+      "tick": 15,
+      "now": 1015000,
+      "playerHp": 0,
+      "playerMana": 74,
+      "enemyHp": 80,
+      "runStatus": "dead",
+      "encounterCompleted": false,
+      "stateHash": "a2bbc3e1"
+    },
+    {
+      "tick": 16,
+      "now": 1016000,
+      "playerHp": 0,
+      "playerMana": 74,
+      "enemyHp": 80,
+      "runStatus": "dead",
+      "encounterCompleted": false,
+      "stateHash": "e819f581"
+    }
+  ]
+}

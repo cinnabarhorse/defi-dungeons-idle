@@ -1,0 +1,7935 @@
+{
+  "generatedAt": "2026-01-29T07:31:06.044Z",
+  "targetFloor": 10,
+  "runs": {
+    "aagent-lvl-1-lev-1-diff-normal": {
+      "characterId": "aagent",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 779253,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 130,
+      "durationMs": 31,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 42,
+      "floor": 5,
+      "score": 6870
+    },
+    "aagent-lvl-1-lev-1-diff-nightmare": {
+      "characterId": "aagent",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 779253,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 50,
+      "durationMs": 9,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 15,
+      "floor": 2,
+      "score": 2651
+    },
+    "aagent-lvl-1-lev-1-diff-hell": {
+      "characterId": "aagent",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 779253,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 32,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 12,
+      "floor": 2,
+      "score": 1600
+    },
+    "aagent-lvl-1-lev-10-diff-normal": {
+      "characterId": "aagent",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 779253,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 2400
+    },
+    "aagent-lvl-1-lev-10-diff-nightmare": {
+      "characterId": "aagent",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 779253,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 1740
+    },
+    "aagent-lvl-1-lev-10-diff-hell": {
+      "characterId": "aagent",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 779253,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 5,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "aagent-lvl-1-lev-50-diff-normal": {
+      "characterId": "aagent",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 779253,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "aagent-lvl-1-lev-50-diff-nightmare": {
+      "characterId": "aagent",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 779253,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "aagent-lvl-1-lev-50-diff-hell": {
+      "characterId": "aagent",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 779253,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 1,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "aagent-lvl-25-lev-1-diff-normal": {
+      "characterId": "aagent",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 803469,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 289,
+      "durationMs": 40,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 27204
+    },
+    "aagent-lvl-25-lev-1-diff-nightmare": {
+      "characterId": "aagent",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 803469,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 301,
+      "durationMs": 46,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 95,
+      "floor": 10,
+      "score": 22594
+    },
+    "aagent-lvl-25-lev-1-diff-hell": {
+      "characterId": "aagent",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 803469,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 49,
+      "durationMs": 12,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 11,
+      "floor": 2,
+      "score": 3540
+    },
+    "aagent-lvl-25-lev-10-diff-normal": {
+      "characterId": "aagent",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 803469,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 53,
+      "durationMs": 18,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 28,
+      "floor": 3,
+      "score": 20350
+    },
+    "aagent-lvl-25-lev-10-diff-nightmare": {
+      "characterId": "aagent",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 803469,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 16,
+      "durationMs": 14,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 6,
+      "floor": 1,
+      "score": 8460
+    },
+    "aagent-lvl-25-lev-10-diff-hell": {
+      "characterId": "aagent",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 803469,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 5,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "aagent-lvl-25-lev-50-diff-normal": {
+      "characterId": "aagent",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 803469,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "aagent-lvl-25-lev-50-diff-nightmare": {
+      "characterId": "aagent",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 803469,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "aagent-lvl-25-lev-50-diff-hell": {
+      "characterId": "aagent",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 803469,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "aagent-lvl-50-lev-1-diff-normal": {
+      "characterId": "aagent",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 828694,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 246,
+      "durationMs": 32,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 32721
+    },
+    "aagent-lvl-50-lev-1-diff-nightmare": {
+      "characterId": "aagent",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 828694,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 408,
+      "durationMs": 86,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 100,
+      "floor": 10,
+      "score": 47477
+    },
+    "aagent-lvl-50-lev-1-diff-hell": {
+      "characterId": "aagent",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 828694,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 361,
+      "durationMs": 81,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 81,
+      "floor": 9,
+      "score": 39452
+    },
+    "aagent-lvl-50-lev-10-diff-normal": {
+      "characterId": "aagent",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 828694,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 109,
+      "durationMs": 29,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 50,
+      "floor": 5,
+      "score": 97750
+    },
+    "aagent-lvl-50-lev-10-diff-nightmare": {
+      "characterId": "aagent",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 828694,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 25,
+      "durationMs": 19,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 17000
+    },
+    "aagent-lvl-50-lev-10-diff-hell": {
+      "characterId": "aagent",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 828694,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 8,
+      "durationMs": 6,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 3600
+    },
+    "aagent-lvl-50-lev-50-diff-normal": {
+      "characterId": "aagent",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 828694,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 40,
+      "durationMs": 9,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 20,
+      "floor": 2,
+      "score": 165600
+    },
+    "aagent-lvl-50-lev-50-diff-nightmare": {
+      "characterId": "aagent",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 828694,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 3,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    },
+    "aagent-lvl-50-lev-50-diff-hell": {
+      "characterId": "aagent",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 828694,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 3,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    },
+    "aagent-lvl-99-lev-1-diff-normal": {
+      "characterId": "aagent",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 878135,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 215,
+      "durationMs": 28,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 37982
+    },
+    "aagent-lvl-99-lev-1-diff-nightmare": {
+      "characterId": "aagent",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 878135,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 261,
+      "durationMs": 40,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 49820
+    },
+    "aagent-lvl-99-lev-1-diff-hell": {
+      "characterId": "aagent",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 878135,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 211,
+      "durationMs": 45,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 62,
+      "floor": 7,
+      "score": 29616
+    },
+    "aagent-lvl-99-lev-10-diff-normal": {
+      "characterId": "aagent",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 878135,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 131,
+      "durationMs": 19,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 72,
+      "floor": 8,
+      "score": 145770
+    },
+    "aagent-lvl-99-lev-10-diff-nightmare": {
+      "characterId": "aagent",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 878135,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 189,
+      "durationMs": 74,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 82,
+      "floor": 9,
+      "score": 298240
+    },
+    "aagent-lvl-99-lev-10-diff-hell": {
+      "characterId": "aagent",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 878135,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 18,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 7,
+      "floor": 1,
+      "score": 17000
+    },
+    "aagent-lvl-99-lev-50-diff-normal": {
+      "characterId": "aagent",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 878135,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 71,
+      "durationMs": 14,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 40,
+      "floor": 4,
+      "score": 338450
+    },
+    "aagent-lvl-99-lev-50-diff-nightmare": {
+      "characterId": "aagent",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 878135,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 21,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 87100
+    },
+    "aagent-lvl-99-lev-50-diff-hell": {
+      "characterId": "aagent",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 878135,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 20000
+    },
+    "baarbarian-lvl-1-lev-1-diff-normal": {
+      "characterId": "baarbarian",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 943940,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 55,
+      "durationMs": 9,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 13,
+      "floor": 2,
+      "score": 2307
+    },
+    "baarbarian-lvl-1-lev-1-diff-nightmare": {
+      "characterId": "baarbarian",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 943940,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 100,
+      "durationMs": 23,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 20,
+      "floor": 2,
+      "score": 3510
+    },
+    "baarbarian-lvl-1-lev-1-diff-hell": {
+      "characterId": "baarbarian",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 943940,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 20,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 180
+    },
+    "baarbarian-lvl-1-lev-10-diff-normal": {
+      "characterId": "baarbarian",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 943940,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 3,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "baarbarian-lvl-1-lev-10-diff-nightmare": {
+      "characterId": "baarbarian",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 943940,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 3,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "baarbarian-lvl-1-lev-10-diff-hell": {
+      "characterId": "baarbarian",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 943940,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 3,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "baarbarian-lvl-1-lev-50-diff-normal": {
+      "characterId": "baarbarian",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 943940,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "baarbarian-lvl-1-lev-50-diff-nightmare": {
+      "characterId": "baarbarian",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 943940,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "baarbarian-lvl-1-lev-50-diff-hell": {
+      "characterId": "baarbarian",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 943940,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "baarbarian-lvl-25-lev-1-diff-normal": {
+      "characterId": "baarbarian",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 968156,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 181,
+      "durationMs": 32,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 54,
+      "floor": 6,
+      "score": 13299
+    },
+    "baarbarian-lvl-25-lev-1-diff-nightmare": {
+      "characterId": "baarbarian",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 968156,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 147,
+      "durationMs": 50,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 40,
+      "floor": 4,
+      "score": 8610
+    },
+    "baarbarian-lvl-25-lev-1-diff-hell": {
+      "characterId": "baarbarian",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 968156,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 30,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 5,
+      "floor": 1,
+      "score": 980
+    },
+    "baarbarian-lvl-25-lev-10-diff-normal": {
+      "characterId": "baarbarian",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 968156,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 11,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 4,
+      "floor": 1,
+      "score": 3700
+    },
+    "baarbarian-lvl-25-lev-10-diff-nightmare": {
+      "characterId": "baarbarian",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 968156,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 6,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "baarbarian-lvl-25-lev-10-diff-hell": {
+      "characterId": "baarbarian",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 968156,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 6,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "baarbarian-lvl-25-lev-50-diff-normal": {
+      "characterId": "baarbarian",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 968156,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "baarbarian-lvl-25-lev-50-diff-nightmare": {
+      "characterId": "baarbarian",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 968156,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "baarbarian-lvl-25-lev-50-diff-hell": {
+      "characterId": "baarbarian",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 968156,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 1,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "baarbarian-lvl-50-lev-1-diff-normal": {
+      "characterId": "baarbarian",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 993381,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 257,
+      "durationMs": 32,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 31905
+    },
+    "baarbarian-lvl-50-lev-1-diff-nightmare": {
+      "characterId": "baarbarian",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 993381,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 375,
+      "durationMs": 70,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 100,
+      "floor": 10,
+      "score": 44868
+    },
+    "baarbarian-lvl-50-lev-1-diff-hell": {
+      "characterId": "baarbarian",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 993381,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 218,
+      "durationMs": 41,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 57,
+      "floor": 6,
+      "score": 20070
+    },
+    "baarbarian-lvl-50-lev-10-diff-normal": {
+      "characterId": "baarbarian",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 993381,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 28,
+      "durationMs": 8,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 12,
+      "floor": 2,
+      "score": 20400
+    },
+    "baarbarian-lvl-50-lev-10-diff-nightmare": {
+      "characterId": "baarbarian",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 993381,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 23,
+      "durationMs": 13,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 9,
+      "floor": 1,
+      "score": 8740
+    },
+    "baarbarian-lvl-50-lev-10-diff-hell": {
+      "characterId": "baarbarian",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 993381,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 5,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "baarbarian-lvl-50-lev-50-diff-normal": {
+      "characterId": "baarbarian",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 993381,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 21,
+      "durationMs": 8,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 58500
+    },
+    "baarbarian-lvl-50-lev-50-diff-nightmare": {
+      "characterId": "baarbarian",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 993381,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 4,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    },
+    "baarbarian-lvl-50-lev-50-diff-hell": {
+      "characterId": "baarbarian",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 993381,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 4,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    },
+    "baarbarian-lvl-99-lev-1-diff-normal": {
+      "characterId": "baarbarian",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 42822,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 259,
+      "durationMs": 33,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 41211
+    },
+    "baarbarian-lvl-99-lev-1-diff-nightmare": {
+      "characterId": "baarbarian",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 42822,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 348,
+      "durationMs": 63,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 61068
+    },
+    "baarbarian-lvl-99-lev-1-diff-hell": {
+      "characterId": "baarbarian",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 42822,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 452,
+      "durationMs": 85,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 65784
+    },
+    "baarbarian-lvl-99-lev-10-diff-normal": {
+      "characterId": "baarbarian",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 42822,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 246,
+      "durationMs": 66,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 100,
+      "floor": 10,
+      "score": 334110
+    },
+    "baarbarian-lvl-99-lev-10-diff-nightmare": {
+      "characterId": "baarbarian",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 42822,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 26,
+      "durationMs": 22,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 22040
+    },
+    "baarbarian-lvl-99-lev-10-diff-hell": {
+      "characterId": "baarbarian",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 42822,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 19,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 7,
+      "floor": 1,
+      "score": 10600
+    },
+    "baarbarian-lvl-99-lev-50-diff-normal": {
+      "characterId": "baarbarian",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 42822,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 43,
+      "durationMs": 18,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 20,
+      "floor": 2,
+      "score": 167450
+    },
+    "baarbarian-lvl-99-lev-50-diff-nightmare": {
+      "characterId": "baarbarian",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 42822,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 18500
+    },
+    "baarbarian-lvl-99-lev-50-diff-hell": {
+      "characterId": "baarbarian",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 42822,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 4,
+      "durationMs": 1,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 10000
+    },
+    "bushidogotchi-lvl-1-lev-1-diff-normal": {
+      "characterId": "bushidogotchi",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 254677,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 318,
+      "durationMs": 69,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 33980
+    },
+    "bushidogotchi-lvl-1-lev-1-diff-nightmare": {
+      "characterId": "bushidogotchi",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 254677,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 522,
+      "durationMs": 73,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 100,
+      "floor": 10,
+      "score": 44218
+    },
+    "bushidogotchi-lvl-1-lev-1-diff-hell": {
+      "characterId": "bushidogotchi",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 254677,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 244,
+      "durationMs": 37,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 50,
+      "floor": 5,
+      "score": 14708
+    },
+    "bushidogotchi-lvl-1-lev-10-diff-normal": {
+      "characterId": "bushidogotchi",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 254677,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 41,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 21,
+      "floor": 3,
+      "score": 28590
+    },
+    "bushidogotchi-lvl-1-lev-10-diff-nightmare": {
+      "characterId": "bushidogotchi",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 254677,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 18,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 6,
+      "floor": 1,
+      "score": 11260
+    },
+    "bushidogotchi-lvl-1-lev-10-diff-hell": {
+      "characterId": "bushidogotchi",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 254677,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 17,
+      "durationMs": 7,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 5,
+      "floor": 1,
+      "score": 5200
+    },
+    "bushidogotchi-lvl-1-lev-50-diff-normal": {
+      "characterId": "bushidogotchi",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 254677,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 22,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 14,
+      "floor": 2,
+      "score": 51500
+    },
+    "bushidogotchi-lvl-1-lev-50-diff-nightmare": {
+      "characterId": "bushidogotchi",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 254677,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 5,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    },
+    "bushidogotchi-lvl-1-lev-50-diff-hell": {
+      "characterId": "bushidogotchi",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 254677,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 4,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    },
+    "bushidogotchi-lvl-25-lev-1-diff-normal": {
+      "characterId": "bushidogotchi",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 278893,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 255,
+      "durationMs": 29,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 35211
+    },
+    "bushidogotchi-lvl-25-lev-1-diff-nightmare": {
+      "characterId": "bushidogotchi",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 278893,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 366,
+      "durationMs": 53,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 53411
+    },
+    "bushidogotchi-lvl-25-lev-1-diff-hell": {
+      "characterId": "bushidogotchi",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 278893,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 547,
+      "durationMs": 93,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 74906
+    },
+    "bushidogotchi-lvl-25-lev-10-diff-normal": {
+      "characterId": "bushidogotchi",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 278893,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 119,
+      "durationMs": 63,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 52,
+      "floor": 6,
+      "score": 110250
+    },
+    "bushidogotchi-lvl-25-lev-10-diff-nightmare": {
+      "characterId": "bushidogotchi",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 278893,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 35,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 14,
+      "floor": 2,
+      "score": 25450
+    },
+    "bushidogotchi-lvl-25-lev-10-diff-hell": {
+      "characterId": "bushidogotchi",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 278893,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 13,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 4,
+      "floor": 1,
+      "score": 8000
+    },
+    "bushidogotchi-lvl-25-lev-50-diff-normal": {
+      "characterId": "bushidogotchi",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 278893,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 22,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 53000
+    },
+    "bushidogotchi-lvl-25-lev-50-diff-nightmare": {
+      "characterId": "bushidogotchi",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 278893,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 6,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 11500
+    },
+    "bushidogotchi-lvl-25-lev-50-diff-hell": {
+      "characterId": "bushidogotchi",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 278893,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 5,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    },
+    "bushidogotchi-lvl-50-lev-1-diff-normal": {
+      "characterId": "bushidogotchi",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 304118,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 218,
+      "durationMs": 27,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 39787
+    },
+    "bushidogotchi-lvl-50-lev-1-diff-nightmare": {
+      "characterId": "bushidogotchi",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 304118,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 252,
+      "durationMs": 30,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 46936
+    },
+    "bushidogotchi-lvl-50-lev-1-diff-hell": {
+      "characterId": "bushidogotchi",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 304118,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 349,
+      "durationMs": 61,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 69010
+    },
+    "bushidogotchi-lvl-50-lev-10-diff-normal": {
+      "characterId": "bushidogotchi",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 304118,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 218,
+      "durationMs": 40,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 397870
+    },
+    "bushidogotchi-lvl-50-lev-10-diff-nightmare": {
+      "characterId": "bushidogotchi",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 304118,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 132,
+      "durationMs": 28,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 66,
+      "floor": 7,
+      "score": 178130
+    },
+    "bushidogotchi-lvl-50-lev-10-diff-hell": {
+      "characterId": "bushidogotchi",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 304118,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 27,
+      "durationMs": 7,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 14,
+      "floor": 2,
+      "score": 23200
+    },
+    "bushidogotchi-lvl-50-lev-50-diff-normal": {
+      "characterId": "bushidogotchi",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 304118,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 75,
+      "durationMs": 13,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 43,
+      "floor": 5,
+      "score": 302100
+    },
+    "bushidogotchi-lvl-50-lev-50-diff-nightmare": {
+      "characterId": "bushidogotchi",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 304118,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 17,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 12,
+      "floor": 2,
+      "score": 67500
+    },
+    "bushidogotchi-lvl-50-lev-50-diff-hell": {
+      "characterId": "bushidogotchi",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 304118,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 4,
+      "floor": 1,
+      "score": 27000
+    },
+    "bushidogotchi-lvl-99-lev-1-diff-normal": {
+      "characterId": "bushidogotchi",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 353559,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 186,
+      "durationMs": 22,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 32142
+    },
+    "bushidogotchi-lvl-99-lev-1-diff-nightmare": {
+      "characterId": "bushidogotchi",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 353559,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 218,
+      "durationMs": 28,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 50730
+    },
+    "bushidogotchi-lvl-99-lev-1-diff-hell": {
+      "characterId": "bushidogotchi",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 353559,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 253,
+      "durationMs": 37,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 62116
+    },
+    "bushidogotchi-lvl-99-lev-10-diff-normal": {
+      "characterId": "bushidogotchi",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 353559,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 186,
+      "durationMs": 23,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 321420
+    },
+    "bushidogotchi-lvl-99-lev-10-diff-nightmare": {
+      "characterId": "bushidogotchi",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 353559,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 218,
+      "durationMs": 47,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 507300
+    },
+    "bushidogotchi-lvl-99-lev-10-diff-hell": {
+      "characterId": "bushidogotchi",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 353559,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 206,
+      "durationMs": 74,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 95,
+      "floor": 10,
+      "score": 405880
+    },
+    "bushidogotchi-lvl-99-lev-50-diff-normal": {
+      "characterId": "bushidogotchi",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 353559,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 179,
+      "durationMs": 36,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 100,
+      "floor": 10,
+      "score": 1247100
+    },
+    "bushidogotchi-lvl-99-lev-50-diff-nightmare": {
+      "characterId": "bushidogotchi",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 353559,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 19,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 64700
+    },
+    "bushidogotchi-lvl-99-lev-50-diff-hell": {
+      "characterId": "bushidogotchi",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 353559,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 13,
+      "durationMs": 9,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 6,
+      "floor": 1,
+      "score": 44000
+    },
+    "citaadelknight-lvl-1-lev-1-diff-normal": {
+      "characterId": "citaadelknight",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 541467,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 141,
+      "durationMs": 29,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 35,
+      "floor": 4,
+      "score": 6704
+    },
+    "citaadelknight-lvl-1-lev-1-diff-nightmare": {
+      "characterId": "citaadelknight",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 541467,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 167,
+      "durationMs": 23,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 37,
+      "floor": 4,
+      "score": 8698
+    },
+    "citaadelknight-lvl-1-lev-1-diff-hell": {
+      "characterId": "citaadelknight",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 541467,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 65,
+      "durationMs": 10,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 3660
+    },
+    "citaadelknight-lvl-1-lev-10-diff-normal": {
+      "characterId": "citaadelknight",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 541467,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 29,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 10300
+    },
+    "citaadelknight-lvl-1-lev-10-diff-nightmare": {
+      "characterId": "citaadelknight",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 541467,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 15,
+      "durationMs": 10,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 5,
+      "floor": 1,
+      "score": 3980
+    },
+    "citaadelknight-lvl-1-lev-10-diff-hell": {
+      "characterId": "citaadelknight",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 541467,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 8,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 200
+    },
+    "citaadelknight-lvl-1-lev-50-diff-normal": {
+      "characterId": "citaadelknight",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 541467,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "citaadelknight-lvl-1-lev-50-diff-nightmare": {
+      "characterId": "citaadelknight",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 541467,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "citaadelknight-lvl-1-lev-50-diff-hell": {
+      "characterId": "citaadelknight",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 541467,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "citaadelknight-lvl-25-lev-1-diff-normal": {
+      "characterId": "citaadelknight",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 565683,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 405,
+      "durationMs": 53,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 39793
+    },
+    "citaadelknight-lvl-25-lev-1-diff-nightmare": {
+      "characterId": "citaadelknight",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 565683,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 525,
+      "durationMs": 74,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 100,
+      "floor": 10,
+      "score": 38363
+    },
+    "citaadelknight-lvl-25-lev-1-diff-hell": {
+      "characterId": "citaadelknight",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 565683,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 92,
+      "durationMs": 18,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 27,
+      "floor": 3,
+      "score": 4492
+    },
+    "citaadelknight-lvl-25-lev-10-diff-normal": {
+      "characterId": "citaadelknight",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 565683,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 68,
+      "durationMs": 14,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 30,
+      "floor": 3,
+      "score": 36600
+    },
+    "citaadelknight-lvl-25-lev-10-diff-nightmare": {
+      "characterId": "citaadelknight",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 565683,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 16,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 5,
+      "floor": 1,
+      "score": 6080
+    },
+    "citaadelknight-lvl-25-lev-10-diff-hell": {
+      "characterId": "citaadelknight",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 565683,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 13,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 4,
+      "floor": 1,
+      "score": 5000
+    },
+    "citaadelknight-lvl-25-lev-50-diff-normal": {
+      "characterId": "citaadelknight",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 565683,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 16,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 11,
+      "floor": 2,
+      "score": 30000
+    },
+    "citaadelknight-lvl-25-lev-50-diff-nightmare": {
+      "characterId": "citaadelknight",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 565683,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 6,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    },
+    "citaadelknight-lvl-25-lev-50-diff-hell": {
+      "characterId": "citaadelknight",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 565683,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 1000
+    },
+    "citaadelknight-lvl-50-lev-1-diff-normal": {
+      "characterId": "citaadelknight",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 590908,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 260,
+      "durationMs": 29,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 33070
+    },
+    "citaadelknight-lvl-50-lev-1-diff-nightmare": {
+      "characterId": "citaadelknight",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 590908,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 327,
+      "durationMs": 47,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 40486
+    },
+    "citaadelknight-lvl-50-lev-1-diff-hell": {
+      "characterId": "citaadelknight",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 590908,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 100,
+      "durationMs": 30,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 30,
+      "floor": 3,
+      "score": 9950
+    },
+    "citaadelknight-lvl-50-lev-10-diff-normal": {
+      "characterId": "citaadelknight",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 590908,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 145,
+      "durationMs": 27,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 63,
+      "floor": 7,
+      "score": 139430
+    },
+    "citaadelknight-lvl-50-lev-10-diff-nightmare": {
+      "characterId": "citaadelknight",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 590908,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 27,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 18120
+    },
+    "citaadelknight-lvl-50-lev-10-diff-hell": {
+      "characterId": "citaadelknight",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 590908,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 21,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 11,
+      "floor": 2,
+      "score": 8600
+    },
+    "citaadelknight-lvl-50-lev-50-diff-normal": {
+      "characterId": "citaadelknight",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 590908,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 23,
+      "durationMs": 9,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 86500
+    },
+    "citaadelknight-lvl-50-lev-50-diff-nightmare": {
+      "characterId": "citaadelknight",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 590908,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 10,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 5,
+      "floor": 1,
+      "score": 28300
+    },
+    "citaadelknight-lvl-50-lev-50-diff-hell": {
+      "characterId": "citaadelknight",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 590908,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 8,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 4,
+      "floor": 1,
+      "score": 16000
+    },
+    "citaadelknight-lvl-99-lev-1-diff-normal": {
+      "characterId": "citaadelknight",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 640349,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 243,
+      "durationMs": 27,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 39997
+    },
+    "citaadelknight-lvl-99-lev-1-diff-nightmare": {
+      "characterId": "citaadelknight",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 640349,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 260,
+      "durationMs": 37,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 45628
+    },
+    "citaadelknight-lvl-99-lev-1-diff-hell": {
+      "characterId": "citaadelknight",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 640349,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 385,
+      "durationMs": 66,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 74868
+    },
+    "citaadelknight-lvl-99-lev-10-diff-normal": {
+      "characterId": "citaadelknight",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 640349,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 243,
+      "durationMs": 56,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 399970
+    },
+    "citaadelknight-lvl-99-lev-10-diff-nightmare": {
+      "characterId": "citaadelknight",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 640349,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 128,
+      "durationMs": 45,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 60,
+      "floor": 6,
+      "score": 131160
+    },
+    "citaadelknight-lvl-99-lev-10-diff-hell": {
+      "characterId": "citaadelknight",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 640349,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 72,
+      "durationMs": 21,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 26,
+      "floor": 3,
+      "score": 81840
+    },
+    "citaadelknight-lvl-99-lev-50-diff-normal": {
+      "characterId": "citaadelknight",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 640349,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 44,
+      "durationMs": 14,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 20,
+      "floor": 2,
+      "score": 144650
+    },
+    "citaadelknight-lvl-99-lev-50-diff-nightmare": {
+      "characterId": "citaadelknight",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 640349,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 6,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 12200
+    },
+    "citaadelknight-lvl-99-lev-50-diff-hell": {
+      "characterId": "citaadelknight",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 640349,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 30,
+      "durationMs": 13,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 14,
+      "floor": 2,
+      "score": 95900
+    },
+    "coderdan-lvl-1-lev-1-diff-normal": {
+      "characterId": "coderdan",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 879229,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 233,
+      "durationMs": 43,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 31632
+    },
+    "coderdan-lvl-1-lev-1-diff-nightmare": {
+      "characterId": "coderdan",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 879229,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 123,
+      "durationMs": 27,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 54,
+      "floor": 6,
+      "score": 14602
+    },
+    "coderdan-lvl-1-lev-1-diff-hell": {
+      "characterId": "coderdan",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 879229,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 134,
+      "durationMs": 36,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 49,
+      "floor": 5,
+      "score": 12964
+    },
+    "coderdan-lvl-1-lev-10-diff-normal": {
+      "characterId": "coderdan",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 879229,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 72,
+      "durationMs": 31,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 35,
+      "floor": 4,
+      "score": 59650
+    },
+    "coderdan-lvl-1-lev-10-diff-nightmare": {
+      "characterId": "coderdan",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 879229,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 24,
+      "durationMs": 10,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 12,
+      "floor": 2,
+      "score": 13360
+    },
+    "coderdan-lvl-1-lev-10-diff-hell": {
+      "characterId": "coderdan",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 879229,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 6,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 3800
+    },
+    "coderdan-lvl-1-lev-50-diff-normal": {
+      "characterId": "coderdan",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 879229,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 5,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 5500
+    },
+    "coderdan-lvl-1-lev-50-diff-nightmare": {
+      "characterId": "coderdan",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 879229,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 5,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 7300
+    },
+    "coderdan-lvl-1-lev-50-diff-hell": {
+      "characterId": "coderdan",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 879229,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 5,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 10000
+    },
+    "coderdan-lvl-25-lev-1-diff-normal": {
+      "characterId": "coderdan",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 903445,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 212,
+      "durationMs": 37,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 31819
+    },
+    "coderdan-lvl-25-lev-1-diff-nightmare": {
+      "characterId": "coderdan",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 903445,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 290,
+      "durationMs": 57,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 100,
+      "floor": 10,
+      "score": 45019
+    },
+    "coderdan-lvl-25-lev-1-diff-hell": {
+      "characterId": "coderdan",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 903445,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 103,
+      "durationMs": 40,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 41,
+      "floor": 5,
+      "score": 11502
+    },
+    "coderdan-lvl-25-lev-10-diff-normal": {
+      "characterId": "coderdan",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 903445,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 45,
+      "durationMs": 8,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 24,
+      "floor": 3,
+      "score": 32220
+    },
+    "coderdan-lvl-25-lev-10-diff-nightmare": {
+      "characterId": "coderdan",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 903445,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 25,
+      "durationMs": 10,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 15,
+      "floor": 2,
+      "score": 9410
+    },
+    "coderdan-lvl-25-lev-10-diff-hell": {
+      "characterId": "coderdan",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 903445,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 14,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 6,
+      "floor": 1,
+      "score": 6200
+    },
+    "coderdan-lvl-25-lev-50-diff-normal": {
+      "characterId": "coderdan",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 903445,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 22,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 12,
+      "floor": 2,
+      "score": 48000
+    },
+    "coderdan-lvl-25-lev-50-diff-nightmare": {
+      "characterId": "coderdan",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 903445,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 4,
+      "floor": 1,
+      "score": 11500
+    },
+    "coderdan-lvl-25-lev-50-diff-hell": {
+      "characterId": "coderdan",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 903445,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 4,
+      "floor": 1,
+      "score": 16000
+    },
+    "coderdan-lvl-50-lev-1-diff-normal": {
+      "characterId": "coderdan",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 928670,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 229,
+      "durationMs": 33,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 50008
+    },
+    "coderdan-lvl-50-lev-1-diff-nightmare": {
+      "characterId": "coderdan",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 928670,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 218,
+      "durationMs": 31,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 52894
+    },
+    "coderdan-lvl-50-lev-1-diff-hell": {
+      "characterId": "coderdan",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 928670,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 308,
+      "durationMs": 71,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 89498
+    },
+    "coderdan-lvl-50-lev-10-diff-normal": {
+      "characterId": "coderdan",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 928670,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 103,
+      "durationMs": 29,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 50,
+      "floor": 5,
+      "score": 147860
+    },
+    "coderdan-lvl-50-lev-10-diff-nightmare": {
+      "characterId": "coderdan",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 928670,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 107,
+      "durationMs": 34,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 53,
+      "floor": 6,
+      "score": 179020
+    },
+    "coderdan-lvl-50-lev-10-diff-hell": {
+      "characterId": "coderdan",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 928670,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 20,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 13800
+    },
+    "coderdan-lvl-50-lev-50-diff-normal": {
+      "characterId": "coderdan",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 928670,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 24,
+      "durationMs": 6,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 12,
+      "floor": 2,
+      "score": 101000
+    },
+    "coderdan-lvl-50-lev-50-diff-nightmare": {
+      "characterId": "coderdan",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 928670,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 9,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 5,
+      "floor": 1,
+      "score": 47900
+    },
+    "coderdan-lvl-50-lev-50-diff-hell": {
+      "characterId": "coderdan",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 928670,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 10,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 5,
+      "floor": 1,
+      "score": 42000
+    },
+    "coderdan-lvl-99-lev-1-diff-normal": {
+      "characterId": "coderdan",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 978111,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 170,
+      "durationMs": 17,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 28628
+    },
+    "coderdan-lvl-99-lev-1-diff-nightmare": {
+      "characterId": "coderdan",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 978111,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 195,
+      "durationMs": 24,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 47088
+    },
+    "coderdan-lvl-99-lev-1-diff-hell": {
+      "characterId": "coderdan",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 978111,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 240,
+      "durationMs": 44,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 80218
+    },
+    "coderdan-lvl-99-lev-10-diff-normal": {
+      "characterId": "coderdan",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 978111,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 170,
+      "durationMs": 19,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 286280
+    },
+    "coderdan-lvl-99-lev-10-diff-nightmare": {
+      "characterId": "coderdan",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 978111,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 186,
+      "durationMs": 35,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 100,
+      "floor": 10,
+      "score": 370080
+    },
+    "coderdan-lvl-99-lev-10-diff-hell": {
+      "characterId": "coderdan",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 978111,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 104,
+      "durationMs": 32,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 50,
+      "floor": 5,
+      "score": 204240
+    },
+    "coderdan-lvl-99-lev-50-diff-normal": {
+      "characterId": "coderdan",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 978111,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 164,
+      "durationMs": 20,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 100,
+      "floor": 10,
+      "score": 1071400
+    },
+    "coderdan-lvl-99-lev-50-diff-nightmare": {
+      "characterId": "coderdan",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 978111,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 65,
+      "durationMs": 9,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 41,
+      "floor": 5,
+      "score": 426850
+    },
+    "coderdan-lvl-99-lev-50-diff-hell": {
+      "characterId": "coderdan",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 978111,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 20,
+      "durationMs": 9,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 153000
+    },
+    "farmer-lvl-1-lev-1-diff-normal": {
+      "characterId": "farmer",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 260116,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 55,
+      "durationMs": 6,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 8,
+      "floor": 1,
+      "score": 770
+    },
+    "farmer-lvl-1-lev-1-diff-nightmare": {
+      "characterId": "farmer",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 260116,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 19,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 20
+    },
+    "farmer-lvl-1-lev-1-diff-hell": {
+      "characterId": "farmer",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 260116,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 17,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 20
+    },
+    "farmer-lvl-1-lev-10-diff-normal": {
+      "characterId": "farmer",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 260116,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "farmer-lvl-1-lev-10-diff-nightmare": {
+      "characterId": "farmer",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 260116,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "farmer-lvl-1-lev-10-diff-hell": {
+      "characterId": "farmer",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 260116,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 1,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "farmer-lvl-1-lev-50-diff-normal": {
+      "characterId": "farmer",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 260116,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "farmer-lvl-1-lev-50-diff-nightmare": {
+      "characterId": "farmer",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 260116,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "farmer-lvl-1-lev-50-diff-hell": {
+      "characterId": "farmer",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 260116,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 1,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "farmer-lvl-25-lev-1-diff-normal": {
+      "characterId": "farmer",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 284332,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 79,
+      "durationMs": 8,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 20,
+      "floor": 2,
+      "score": 2123
+    },
+    "farmer-lvl-25-lev-1-diff-nightmare": {
+      "characterId": "farmer",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 284332,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 139,
+      "durationMs": 16,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 20,
+      "floor": 2,
+      "score": 3249
+    },
+    "farmer-lvl-25-lev-1-diff-hell": {
+      "characterId": "farmer",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 284332,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 94,
+      "durationMs": 18,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 9,
+      "floor": 1,
+      "score": 1420
+    },
+    "farmer-lvl-25-lev-10-diff-normal": {
+      "characterId": "farmer",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 284332,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "farmer-lvl-25-lev-10-diff-nightmare": {
+      "characterId": "farmer",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 284332,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "farmer-lvl-25-lev-10-diff-hell": {
+      "characterId": "farmer",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 284332,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "farmer-lvl-25-lev-50-diff-normal": {
+      "characterId": "farmer",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 284332,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "farmer-lvl-25-lev-50-diff-nightmare": {
+      "characterId": "farmer",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 284332,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "farmer-lvl-25-lev-50-diff-hell": {
+      "characterId": "farmer",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 284332,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "farmer-lvl-50-lev-1-diff-normal": {
+      "characterId": "farmer",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 309557,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 519,
+      "durationMs": 53,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 33011
+    },
+    "farmer-lvl-50-lev-1-diff-nightmare": {
+      "characterId": "farmer",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 309557,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 100,
+      "durationMs": 15,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 14,
+      "floor": 2,
+      "score": 3623
+    },
+    "farmer-lvl-50-lev-1-diff-hell": {
+      "characterId": "farmer",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 309557,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 86,
+      "durationMs": 9,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 12,
+      "floor": 2,
+      "score": 2960
+    },
+    "farmer-lvl-50-lev-10-diff-normal": {
+      "characterId": "farmer",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 309557,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 33,
+      "durationMs": 7,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 10500
+    },
+    "farmer-lvl-50-lev-10-diff-nightmare": {
+      "characterId": "farmer",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 309557,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 8,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1460
+    },
+    "farmer-lvl-50-lev-10-diff-hell": {
+      "characterId": "farmer",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 309557,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 6,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "farmer-lvl-50-lev-50-diff-normal": {
+      "characterId": "farmer",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 309557,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "farmer-lvl-50-lev-50-diff-nightmare": {
+      "characterId": "farmer",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 309557,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "farmer-lvl-50-lev-50-diff-hell": {
+      "characterId": "farmer",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 309557,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "farmer-lvl-99-lev-1-diff-normal": {
+      "characterId": "farmer",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 358998,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 396,
+      "durationMs": 40,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 37887
+    },
+    "farmer-lvl-99-lev-1-diff-nightmare": {
+      "characterId": "farmer",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 358998,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 485,
+      "durationMs": 73,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 100,
+      "floor": 10,
+      "score": 34012
+    },
+    "farmer-lvl-99-lev-1-diff-hell": {
+      "characterId": "farmer",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 358998,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 326,
+      "durationMs": 48,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 54,
+      "floor": 6,
+      "score": 18680
+    },
+    "farmer-lvl-99-lev-10-diff-normal": {
+      "characterId": "farmer",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 358998,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 37,
+      "durationMs": 6,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 13,
+      "floor": 2,
+      "score": 23550
+    },
+    "farmer-lvl-99-lev-10-diff-nightmare": {
+      "characterId": "farmer",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 358998,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 21,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 6,
+      "floor": 1,
+      "score": 12940
+    },
+    "farmer-lvl-99-lev-10-diff-hell": {
+      "characterId": "farmer",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 358998,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 15,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 5,
+      "floor": 1,
+      "score": 4800
+    },
+    "farmer-lvl-99-lev-50-diff-normal": {
+      "characterId": "farmer",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 358998,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 20,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 8,
+      "floor": 1,
+      "score": 50500
+    },
+    "farmer-lvl-99-lev-50-diff-nightmare": {
+      "characterId": "farmer",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 358998,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 11500
+    },
+    "farmer-lvl-99-lev-50-diff-hell": {
+      "characterId": "farmer",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 358998,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 5,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    },
+    "geisha-lvl-1-lev-1-diff-normal": {
+      "characterId": "geisha",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 321074,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 289,
+      "durationMs": 77,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 75,
+      "floor": 8,
+      "score": 21283
+    },
+    "geisha-lvl-1-lev-1-diff-nightmare": {
+      "characterId": "geisha",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 321074,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 26,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 7,
+      "floor": 1,
+      "score": 1168
+    },
+    "geisha-lvl-1-lev-1-diff-hell": {
+      "characterId": "geisha",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 321074,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 18,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 4,
+      "floor": 1,
+      "score": 700
+    },
+    "geisha-lvl-1-lev-10-diff-normal": {
+      "characterId": "geisha",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 321074,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 8,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 2100
+    },
+    "geisha-lvl-1-lev-10-diff-nightmare": {
+      "characterId": "geisha",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 321074,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 5,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "geisha-lvl-1-lev-10-diff-hell": {
+      "characterId": "geisha",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 321074,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 5,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "geisha-lvl-1-lev-50-diff-normal": {
+      "characterId": "geisha",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 321074,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "geisha-lvl-1-lev-50-diff-nightmare": {
+      "characterId": "geisha",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 321074,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "geisha-lvl-1-lev-50-diff-hell": {
+      "characterId": "geisha",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 321074,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "geisha-lvl-25-lev-1-diff-normal": {
+      "characterId": "geisha",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 345290,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 339,
+      "durationMs": 52,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 100,
+      "floor": 10,
+      "score": 28157
+    },
+    "geisha-lvl-25-lev-1-diff-nightmare": {
+      "characterId": "geisha",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 345290,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 176,
+      "durationMs": 34,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 60,
+      "floor": 6,
+      "score": 12793
+    },
+    "geisha-lvl-25-lev-1-diff-hell": {
+      "characterId": "geisha",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 345290,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 164,
+      "durationMs": 43,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 55,
+      "floor": 6,
+      "score": 10984
+    },
+    "geisha-lvl-25-lev-10-diff-normal": {
+      "characterId": "geisha",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 345290,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 25,
+      "durationMs": 8,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 9700
+    },
+    "geisha-lvl-25-lev-10-diff-nightmare": {
+      "characterId": "geisha",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 345290,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 9,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 3980
+    },
+    "geisha-lvl-25-lev-10-diff-hell": {
+      "characterId": "geisha",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 345290,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 8,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 2400
+    },
+    "geisha-lvl-25-lev-50-diff-normal": {
+      "characterId": "geisha",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 345290,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "geisha-lvl-25-lev-50-diff-nightmare": {
+      "characterId": "geisha",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 345290,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "geisha-lvl-25-lev-50-diff-hell": {
+      "characterId": "geisha",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 345290,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "geisha-lvl-50-lev-1-diff-normal": {
+      "characterId": "geisha",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 370515,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 291,
+      "durationMs": 40,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 44490
+    },
+    "geisha-lvl-50-lev-1-diff-nightmare": {
+      "characterId": "geisha",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 370515,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 301,
+      "durationMs": 50,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 51937
+    },
+    "geisha-lvl-50-lev-1-diff-hell": {
+      "characterId": "geisha",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 370515,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 68,
+      "durationMs": 27,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 20,
+      "floor": 2,
+      "score": 5996
+    },
+    "geisha-lvl-50-lev-10-diff-normal": {
+      "characterId": "geisha",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 370515,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 22,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 10600
+    },
+    "geisha-lvl-50-lev-10-diff-nightmare": {
+      "characterId": "geisha",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 370515,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 23,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 18400
+    },
+    "geisha-lvl-50-lev-10-diff-hell": {
+      "characterId": "geisha",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 370515,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 5,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "geisha-lvl-50-lev-50-diff-normal": {
+      "characterId": "geisha",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 370515,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 9,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 5,
+      "floor": 1,
+      "score": 17000
+    },
+    "geisha-lvl-50-lev-50-diff-nightmare": {
+      "characterId": "geisha",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 370515,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 4,
+      "floor": 1,
+      "score": 11500
+    },
+    "geisha-lvl-50-lev-50-diff-hell": {
+      "characterId": "geisha",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 370515,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 3,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    },
+    "geisha-lvl-99-lev-1-diff-normal": {
+      "characterId": "geisha",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 419956,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 213,
+      "durationMs": 26,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 35945
+    },
+    "geisha-lvl-99-lev-1-diff-nightmare": {
+      "characterId": "geisha",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 419956,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 241,
+      "durationMs": 35,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 47663
+    },
+    "geisha-lvl-99-lev-1-diff-hell": {
+      "characterId": "geisha",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 419956,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 356,
+      "durationMs": 70,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 79874
+    },
+    "geisha-lvl-99-lev-10-diff-normal": {
+      "characterId": "geisha",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 419956,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 213,
+      "durationMs": 46,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 359450
+    },
+    "geisha-lvl-99-lev-10-diff-nightmare": {
+      "characterId": "geisha",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 419956,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 33,
+      "durationMs": 10,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 15,
+      "floor": 2,
+      "score": 34000
+    },
+    "geisha-lvl-99-lev-10-diff-hell": {
+      "characterId": "geisha",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 419956,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 29,
+      "durationMs": 14,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 11,
+      "floor": 2,
+      "score": 36800
+    },
+    "geisha-lvl-99-lev-50-diff-normal": {
+      "characterId": "geisha",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 419956,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 40,
+      "durationMs": 11,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 25,
+      "floor": 3,
+      "score": 123200
+    },
+    "geisha-lvl-99-lev-50-diff-nightmare": {
+      "characterId": "geisha",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 419956,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 15,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 8,
+      "floor": 1,
+      "score": 43700
+    },
+    "geisha-lvl-99-lev-50-diff-hell": {
+      "characterId": "geisha",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 419956,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 10,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 5,
+      "floor": 1,
+      "score": 37000
+    },
+    "gldnxross-lvl-1-lev-1-diff-normal": {
+      "characterId": "gldnxross",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 298039,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 45,
+      "durationMs": 6,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 7,
+      "floor": 1,
+      "score": 800
+    },
+    "gldnxross-lvl-1-lev-1-diff-nightmare": {
+      "characterId": "gldnxross",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 298039,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 14,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 20
+    },
+    "gldnxross-lvl-1-lev-1-diff-hell": {
+      "characterId": "gldnxross",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 298039,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 13,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 20
+    },
+    "gldnxross-lvl-1-lev-10-diff-normal": {
+      "characterId": "gldnxross",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 298039,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gldnxross-lvl-1-lev-10-diff-nightmare": {
+      "characterId": "gldnxross",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 298039,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 1,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gldnxross-lvl-1-lev-10-diff-hell": {
+      "characterId": "gldnxross",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 298039,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gldnxross-lvl-1-lev-50-diff-normal": {
+      "characterId": "gldnxross",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 298039,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gldnxross-lvl-1-lev-50-diff-nightmare": {
+      "characterId": "gldnxross",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 298039,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gldnxross-lvl-1-lev-50-diff-hell": {
+      "characterId": "gldnxross",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 298039,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gldnxross-lvl-25-lev-1-diff-normal": {
+      "characterId": "gldnxross",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 322255,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 122,
+      "durationMs": 20,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 30,
+      "floor": 3,
+      "score": 3194
+    },
+    "gldnxross-lvl-25-lev-1-diff-nightmare": {
+      "characterId": "gldnxross",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 322255,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 31,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 4,
+      "floor": 1,
+      "score": 468
+    },
+    "gldnxross-lvl-25-lev-1-diff-hell": {
+      "characterId": "gldnxross",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 322255,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 44,
+      "durationMs": 7,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 12,
+      "floor": 2,
+      "score": 620
+    },
+    "gldnxross-lvl-25-lev-10-diff-normal": {
+      "characterId": "gldnxross",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 322255,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 4,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gldnxross-lvl-25-lev-10-diff-nightmare": {
+      "characterId": "gldnxross",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 322255,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 4,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gldnxross-lvl-25-lev-10-diff-hell": {
+      "characterId": "gldnxross",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 322255,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 4,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gldnxross-lvl-25-lev-50-diff-normal": {
+      "characterId": "gldnxross",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 322255,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gldnxross-lvl-25-lev-50-diff-nightmare": {
+      "characterId": "gldnxross",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 322255,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gldnxross-lvl-25-lev-50-diff-hell": {
+      "characterId": "gldnxross",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 322255,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gldnxross-lvl-50-lev-1-diff-normal": {
+      "characterId": "gldnxross",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 347480,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 288,
+      "durationMs": 46,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 60,
+      "floor": 6,
+      "score": 15249
+    },
+    "gldnxross-lvl-50-lev-1-diff-nightmare": {
+      "characterId": "gldnxross",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 347480,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 75,
+      "durationMs": 7,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 16,
+      "floor": 2,
+      "score": 2051
+    },
+    "gldnxross-lvl-50-lev-1-diff-hell": {
+      "characterId": "gldnxross",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 347480,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 41,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 6,
+      "floor": 1,
+      "score": 1640
+    },
+    "gldnxross-lvl-50-lev-10-diff-normal": {
+      "characterId": "gldnxross",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 347480,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 13,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 4,
+      "floor": 1,
+      "score": 4100
+    },
+    "gldnxross-lvl-50-lev-10-diff-nightmare": {
+      "characterId": "gldnxross",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 347480,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "gldnxross-lvl-50-lev-10-diff-hell": {
+      "characterId": "gldnxross",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 347480,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 6,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "gldnxross-lvl-50-lev-50-diff-normal": {
+      "characterId": "gldnxross",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 347480,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gldnxross-lvl-50-lev-50-diff-nightmare": {
+      "characterId": "gldnxross",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 347480,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gldnxross-lvl-50-lev-50-diff-hell": {
+      "characterId": "gldnxross",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 347480,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gldnxross-lvl-99-lev-1-diff-normal": {
+      "characterId": "gldnxross",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 396921,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 415,
+      "durationMs": 87,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 36800
+    },
+    "gldnxross-lvl-99-lev-1-diff-nightmare": {
+      "characterId": "gldnxross",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 396921,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 419,
+      "durationMs": 66,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 85,
+      "floor": 9,
+      "score": 30526
+    },
+    "gldnxross-lvl-99-lev-1-diff-hell": {
+      "characterId": "gldnxross",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 396921,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 164,
+      "durationMs": 29,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 40,
+      "floor": 4,
+      "score": 8208
+    },
+    "gldnxross-lvl-99-lev-10-diff-normal": {
+      "characterId": "gldnxross",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 396921,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 28,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 10100
+    },
+    "gldnxross-lvl-99-lev-10-diff-nightmare": {
+      "characterId": "gldnxross",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 396921,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 14,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 4,
+      "floor": 1,
+      "score": 5520
+    },
+    "gldnxross-lvl-99-lev-10-diff-hell": {
+      "characterId": "gldnxross",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 396921,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 9,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 2400
+    },
+    "gldnxross-lvl-99-lev-50-diff-normal": {
+      "characterId": "gldnxross",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 396921,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 10500
+    },
+    "gldnxross-lvl-99-lev-50-diff-nightmare": {
+      "characterId": "gldnxross",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 396921,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 4,
+      "durationMs": 1,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    },
+    "gldnxross-lvl-99-lev-50-diff-hell": {
+      "characterId": "gldnxross",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 396921,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 4,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    },
+    "gotchidator-lvl-1-lev-1-diff-normal": {
+      "characterId": "gotchidator",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 173331,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 151,
+      "durationMs": 22,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 41,
+      "floor": 5,
+      "score": 5207
+    },
+    "gotchidator-lvl-1-lev-1-diff-nightmare": {
+      "characterId": "gotchidator",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 173331,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 59,
+      "durationMs": 7,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 15,
+      "floor": 2,
+      "score": 1629
+    },
+    "gotchidator-lvl-1-lev-1-diff-hell": {
+      "characterId": "gotchidator",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 173331,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 28,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 6,
+      "floor": 1,
+      "score": 980
+    },
+    "gotchidator-lvl-1-lev-10-diff-normal": {
+      "characterId": "gotchidator",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 173331,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 3,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gotchidator-lvl-1-lev-10-diff-nightmare": {
+      "characterId": "gotchidator",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 173331,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 3,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gotchidator-lvl-1-lev-10-diff-hell": {
+      "characterId": "gotchidator",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 173331,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 3,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gotchidator-lvl-1-lev-50-diff-normal": {
+      "characterId": "gotchidator",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 173331,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gotchidator-lvl-1-lev-50-diff-nightmare": {
+      "characterId": "gotchidator",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 173331,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 1,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gotchidator-lvl-1-lev-50-diff-hell": {
+      "characterId": "gotchidator",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 173331,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 1,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gotchidator-lvl-25-lev-1-diff-normal": {
+      "characterId": "gotchidator",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 197547,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 258,
+      "durationMs": 39,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 59,
+      "floor": 6,
+      "score": 13595
+    },
+    "gotchidator-lvl-25-lev-1-diff-nightmare": {
+      "characterId": "gotchidator",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 197547,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 297,
+      "durationMs": 52,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 52,
+      "floor": 6,
+      "score": 17262
+    },
+    "gotchidator-lvl-25-lev-1-diff-hell": {
+      "characterId": "gotchidator",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 197547,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 76,
+      "durationMs": 14,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 2500
+    },
+    "gotchidator-lvl-25-lev-10-diff-normal": {
+      "characterId": "gotchidator",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 197547,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 10,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 1000
+    },
+    "gotchidator-lvl-25-lev-10-diff-nightmare": {
+      "characterId": "gotchidator",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 197547,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 8,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "gotchidator-lvl-25-lev-10-diff-hell": {
+      "characterId": "gotchidator",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 197547,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 8,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "gotchidator-lvl-25-lev-50-diff-normal": {
+      "characterId": "gotchidator",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 197547,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gotchidator-lvl-25-lev-50-diff-nightmare": {
+      "characterId": "gotchidator",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 197547,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gotchidator-lvl-25-lev-50-diff-hell": {
+      "characterId": "gotchidator",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 197547,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "gotchidator-lvl-50-lev-1-diff-normal": {
+      "characterId": "gotchidator",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 222772,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 333,
+      "durationMs": 34,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 32885
+    },
+    "gotchidator-lvl-50-lev-1-diff-nightmare": {
+      "characterId": "gotchidator",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 222772,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 79,
+      "durationMs": 13,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 20,
+      "floor": 2,
+      "score": 4548
+    },
+    "gotchidator-lvl-50-lev-1-diff-hell": {
+      "characterId": "gotchidator",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 222772,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 47,
+      "durationMs": 12,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 1860
+    },
+    "gotchidator-lvl-50-lev-10-diff-normal": {
+      "characterId": "gotchidator",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 222772,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 26,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 13,
+      "floor": 2,
+      "score": 13000
+    },
+    "gotchidator-lvl-50-lev-10-diff-nightmare": {
+      "characterId": "gotchidator",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 222772,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 18,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 6,
+      "floor": 1,
+      "score": 8320
+    },
+    "gotchidator-lvl-50-lev-10-diff-hell": {
+      "characterId": "gotchidator",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 222772,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 2400
+    },
+    "gotchidator-lvl-50-lev-50-diff-normal": {
+      "characterId": "gotchidator",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 222772,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 5000
+    },
+    "gotchidator-lvl-50-lev-50-diff-nightmare": {
+      "characterId": "gotchidator",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 222772,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 4,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    },
+    "gotchidator-lvl-50-lev-50-diff-hell": {
+      "characterId": "gotchidator",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 222772,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 4,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    },
+    "gotchidator-lvl-99-lev-1-diff-normal": {
+      "characterId": "gotchidator",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 272213,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 260,
+      "durationMs": 28,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 31320
+    },
+    "gotchidator-lvl-99-lev-1-diff-nightmare": {
+      "characterId": "gotchidator",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 272213,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 372,
+      "durationMs": 46,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 51258
+    },
+    "gotchidator-lvl-99-lev-1-diff-hell": {
+      "characterId": "gotchidator",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 272213,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 445,
+      "durationMs": 75,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 100,
+      "floor": 10,
+      "score": 55904
+    },
+    "gotchidator-lvl-99-lev-10-diff-normal": {
+      "characterId": "gotchidator",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 272213,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 94,
+      "durationMs": 31,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 50,
+      "floor": 5,
+      "score": 62470
+    },
+    "gotchidator-lvl-99-lev-10-diff-nightmare": {
+      "characterId": "gotchidator",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 272213,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 93,
+      "durationMs": 23,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 30,
+      "floor": 3,
+      "score": 89200
+    },
+    "gotchidator-lvl-99-lev-10-diff-hell": {
+      "characterId": "gotchidator",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 272213,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 13,
+      "durationMs": 6,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 4,
+      "floor": 1,
+      "score": 8400
+    },
+    "gotchidator-lvl-99-lev-50-diff-normal": {
+      "characterId": "gotchidator",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 272213,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 22,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 40000
+    },
+    "gotchidator-lvl-99-lev-50-diff-nightmare": {
+      "characterId": "gotchidator",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 272213,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 9,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 4,
+      "floor": 1,
+      "score": 24800
+    },
+    "gotchidator-lvl-99-lev-50-diff-hell": {
+      "characterId": "gotchidator",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 272213,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 4,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 10000
+    },
+    "wizard-lvl-1-lev-1-diff-normal": {
+      "characterId": "wizard",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 571036,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 51,
+      "durationMs": 12,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 770
+    },
+    "wizard-lvl-1-lev-1-diff-nightmare": {
+      "characterId": "wizard",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 571036,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 44,
+      "durationMs": 10,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 7,
+      "floor": 1,
+      "score": 482
+    },
+    "wizard-lvl-1-lev-1-diff-hell": {
+      "characterId": "wizard",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 571036,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 39,
+      "durationMs": 7,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 6,
+      "floor": 1,
+      "score": 680
+    },
+    "wizard-lvl-1-lev-10-diff-normal": {
+      "characterId": "wizard",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 571036,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "wizard-lvl-1-lev-10-diff-nightmare": {
+      "characterId": "wizard",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 571036,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "wizard-lvl-1-lev-10-diff-hell": {
+      "characterId": "wizard",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 571036,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "wizard-lvl-1-lev-50-diff-normal": {
+      "characterId": "wizard",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 571036,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 1,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "wizard-lvl-1-lev-50-diff-nightmare": {
+      "characterId": "wizard",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 571036,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 1,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "wizard-lvl-1-lev-50-diff-hell": {
+      "characterId": "wizard",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 571036,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "wizard-lvl-25-lev-1-diff-normal": {
+      "characterId": "wizard",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 595252,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 103,
+      "durationMs": 10,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 27,
+      "floor": 3,
+      "score": 3626
+    },
+    "wizard-lvl-25-lev-1-diff-nightmare": {
+      "characterId": "wizard",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 595252,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 48,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 11,
+      "floor": 2,
+      "score": 1714
+    },
+    "wizard-lvl-25-lev-1-diff-hell": {
+      "characterId": "wizard",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 595252,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 73,
+      "durationMs": 15,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 2280
+    },
+    "wizard-lvl-25-lev-10-diff-normal": {
+      "characterId": "wizard",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 595252,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1100
+    },
+    "wizard-lvl-25-lev-10-diff-nightmare": {
+      "characterId": "wizard",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 595252,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 6,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "wizard-lvl-25-lev-10-diff-hell": {
+      "characterId": "wizard",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 595252,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 6,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "wizard-lvl-25-lev-50-diff-normal": {
+      "characterId": "wizard",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 595252,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "wizard-lvl-25-lev-50-diff-nightmare": {
+      "characterId": "wizard",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 595252,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 1,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "wizard-lvl-25-lev-50-diff-hell": {
+      "characterId": "wizard",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 595252,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "wizard-lvl-50-lev-1-diff-normal": {
+      "characterId": "wizard",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 620477,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 497,
+      "durationMs": 60,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 39844
+    },
+    "wizard-lvl-50-lev-1-diff-nightmare": {
+      "characterId": "wizard",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 620477,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 47,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 1826
+    },
+    "wizard-lvl-50-lev-1-diff-hell": {
+      "characterId": "wizard",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 620477,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 37,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 7,
+      "floor": 1,
+      "score": 1760
+    },
+    "wizard-lvl-50-lev-10-diff-normal": {
+      "characterId": "wizard",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 620477,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 28,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 12700
+    },
+    "wizard-lvl-50-lev-10-diff-nightmare": {
+      "characterId": "wizard",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 620477,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 8,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 2440
+    },
+    "wizard-lvl-50-lev-10-diff-hell": {
+      "characterId": "wizard",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 620477,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 6,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "wizard-lvl-50-lev-50-diff-normal": {
+      "characterId": "wizard",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 620477,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "wizard-lvl-50-lev-50-diff-nightmare": {
+      "characterId": "wizard",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 620477,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "wizard-lvl-50-lev-50-diff-hell": {
+      "characterId": "wizard",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 620477,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "wizard-lvl-99-lev-1-diff-normal": {
+      "characterId": "wizard",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 669918,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 306,
+      "durationMs": 35,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 33510
+    },
+    "wizard-lvl-99-lev-1-diff-nightmare": {
+      "characterId": "wizard",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 669918,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 291,
+      "durationMs": 84,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 79,
+      "floor": 8,
+      "score": 25515
+    },
+    "wizard-lvl-99-lev-1-diff-hell": {
+      "characterId": "wizard",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 669918,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 134,
+      "durationMs": 43,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 30,
+      "floor": 3,
+      "score": 8400
+    },
+    "wizard-lvl-99-lev-10-diff-normal": {
+      "characterId": "wizard",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 669918,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 170,
+      "durationMs": 42,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 66,
+      "floor": 7,
+      "score": 133560
+    },
+    "wizard-lvl-99-lev-10-diff-nightmare": {
+      "characterId": "wizard",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 669918,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 45,
+      "durationMs": 14,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 20,
+      "floor": 2,
+      "score": 20940
+    },
+    "wizard-lvl-99-lev-10-diff-hell": {
+      "characterId": "wizard",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 669918,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 22,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 12,
+      "floor": 2,
+      "score": 10600
+    },
+    "wizard-lvl-99-lev-50-diff-normal": {
+      "characterId": "wizard",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 669918,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 12,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 6,
+      "floor": 1,
+      "score": 27500
+    },
+    "wizard-lvl-99-lev-50-diff-nightmare": {
+      "characterId": "wizard",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 669918,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 20,
+      "durationMs": 6,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 12,
+      "floor": 2,
+      "score": 37400
+    },
+    "wizard-lvl-99-lev-50-diff-hell": {
+      "characterId": "wizard",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 669918,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 5,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    },
+    "xibot-lvl-1-lev-1-diff-normal": {
+      "characterId": "xibot",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 49319,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 54,
+      "durationMs": 9,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 1490
+    },
+    "xibot-lvl-1-lev-1-diff-nightmare": {
+      "characterId": "xibot",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 49319,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 60,
+      "durationMs": 9,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 15,
+      "floor": 2,
+      "score": 1109
+    },
+    "xibot-lvl-1-lev-1-diff-hell": {
+      "characterId": "xibot",
+      "level": 1,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 49319,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 43,
+      "durationMs": 7,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 7,
+      "floor": 1,
+      "score": 700
+    },
+    "xibot-lvl-1-lev-10-diff-normal": {
+      "characterId": "xibot",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 49319,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 4,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "xibot-lvl-1-lev-10-diff-nightmare": {
+      "characterId": "xibot",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 49319,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 4,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "xibot-lvl-1-lev-10-diff-hell": {
+      "characterId": "xibot",
+      "level": 1,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 49319,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 4,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "xibot-lvl-1-lev-50-diff-normal": {
+      "characterId": "xibot",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 49319,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "xibot-lvl-1-lev-50-diff-nightmare": {
+      "characterId": "xibot",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 49319,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "xibot-lvl-1-lev-50-diff-hell": {
+      "characterId": "xibot",
+      "level": 1,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 49319,
+      "statAllocation": {
+        "energy": 0,
+        "aggression": 0,
+        "spookiness": 0,
+        "brainSize": 0
+      },
+      "ticksRun": 1,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "xibot-lvl-25-lev-1-diff-normal": {
+      "characterId": "xibot",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 73535,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 202,
+      "durationMs": 39,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 50,
+      "floor": 5,
+      "score": 7805
+    },
+    "xibot-lvl-25-lev-1-diff-nightmare": {
+      "characterId": "xibot",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 73535,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 158,
+      "durationMs": 39,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 34,
+      "floor": 4,
+      "score": 5613
+    },
+    "xibot-lvl-25-lev-1-diff-hell": {
+      "characterId": "xibot",
+      "level": 25,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 73535,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 35,
+      "durationMs": 5,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 340
+    },
+    "xibot-lvl-25-lev-10-diff-normal": {
+      "characterId": "xibot",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 73535,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 9,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    },
+    "xibot-lvl-25-lev-10-diff-nightmare": {
+      "characterId": "xibot",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 73535,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "xibot-lvl-25-lev-10-diff-hell": {
+      "characterId": "xibot",
+      "level": 25,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 73535,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 200
+    },
+    "xibot-lvl-25-lev-50-diff-normal": {
+      "characterId": "xibot",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 73535,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 1,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "xibot-lvl-25-lev-50-diff-nightmare": {
+      "characterId": "xibot",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 73535,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 1,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "xibot-lvl-25-lev-50-diff-hell": {
+      "characterId": "xibot",
+      "level": 25,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 73535,
+      "statAllocation": {
+        "energy": 8,
+        "aggression": 8,
+        "spookiness": 8,
+        "brainSize": 0
+      },
+      "ticksRun": 2,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 1,
+      "floor": 1,
+      "score": 0
+    },
+    "xibot-lvl-50-lev-1-diff-normal": {
+      "characterId": "xibot",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 98760,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 259,
+      "durationMs": 33,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 70,
+      "floor": 7,
+      "score": 16350
+    },
+    "xibot-lvl-50-lev-1-diff-nightmare": {
+      "characterId": "xibot",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 98760,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 394,
+      "durationMs": 55,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 76,
+      "floor": 8,
+      "score": 21984
+    },
+    "xibot-lvl-50-lev-1-diff-hell": {
+      "characterId": "xibot",
+      "level": 50,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 98760,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 53,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 7,
+      "floor": 1,
+      "score": 1220
+    },
+    "xibot-lvl-50-lev-10-diff-normal": {
+      "characterId": "xibot",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 98760,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 29,
+      "durationMs": 4,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 14700
+    },
+    "xibot-lvl-50-lev-10-diff-nightmare": {
+      "characterId": "xibot",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 98760,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 30,
+      "durationMs": 12,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 9,
+      "floor": 1,
+      "score": 13220
+    },
+    "xibot-lvl-50-lev-10-diff-hell": {
+      "characterId": "xibot",
+      "level": 50,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 98760,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 14,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 4,
+      "floor": 1,
+      "score": 1800
+    },
+    "xibot-lvl-50-lev-50-diff-normal": {
+      "characterId": "xibot",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 98760,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 10,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 4,
+      "floor": 1,
+      "score": 5000
+    },
+    "xibot-lvl-50-lev-50-diff-nightmare": {
+      "characterId": "xibot",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 98760,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 1000
+    },
+    "xibot-lvl-50-lev-50-diff-hell": {
+      "characterId": "xibot",
+      "level": 50,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 98760,
+      "statAllocation": {
+        "energy": 16,
+        "aggression": 16,
+        "spookiness": 17,
+        "brainSize": 0
+      },
+      "ticksRun": 7,
+      "durationMs": 1,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 1000
+    },
+    "xibot-lvl-99-lev-1-diff-normal": {
+      "characterId": "xibot",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "normal",
+      "seed": 148201,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 342,
+      "durationMs": 34,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 39718
+    },
+    "xibot-lvl-99-lev-1-diff-nightmare": {
+      "characterId": "xibot",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "nightmare",
+      "seed": 148201,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 425,
+      "durationMs": 52,
+      "runStatus": "victory",
+      "endedReason": "victory",
+      "depth": 100,
+      "floor": 10,
+      "score": 41822
+    },
+    "xibot-lvl-99-lev-1-diff-hell": {
+      "characterId": "xibot",
+      "level": 99,
+      "leverage": 1,
+      "difficulty": "hell",
+      "seed": 148201,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 109,
+      "durationMs": 25,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 30,
+      "floor": 3,
+      "score": 7776
+    },
+    "xibot-lvl-99-lev-10-diff-normal": {
+      "characterId": "xibot",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "normal",
+      "seed": 148201,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 115,
+      "durationMs": 32,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 40,
+      "floor": 4,
+      "score": 95180
+    },
+    "xibot-lvl-99-lev-10-diff-nightmare": {
+      "characterId": "xibot",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "nightmare",
+      "seed": 148201,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 23,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 11,
+      "floor": 2,
+      "score": 10140
+    },
+    "xibot-lvl-99-lev-10-diff-hell": {
+      "characterId": "xibot",
+      "level": 99,
+      "leverage": 10,
+      "difficulty": "hell",
+      "seed": 148201,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 37,
+      "durationMs": 21,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 15,
+      "floor": 2,
+      "score": 20580
+    },
+    "xibot-lvl-99-lev-50-diff-normal": {
+      "characterId": "xibot",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "normal",
+      "seed": 148201,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 23,
+      "durationMs": 3,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 10,
+      "floor": 1,
+      "score": 65000
+    },
+    "xibot-lvl-99-lev-50-diff-nightmare": {
+      "characterId": "xibot",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "nightmare",
+      "seed": 148201,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 8,
+      "durationMs": 2,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 3,
+      "floor": 1,
+      "score": 6600
+    },
+    "xibot-lvl-99-lev-50-diff-hell": {
+      "characterId": "xibot",
+      "level": 99,
+      "leverage": 50,
+      "difficulty": "hell",
+      "seed": 148201,
+      "statAllocation": {
+        "energy": 33,
+        "aggression": 32,
+        "spookiness": 33,
+        "brainSize": 0
+      },
+      "ticksRun": 5,
+      "durationMs": 1,
+      "runStatus": "dead",
+      "endedReason": "dead",
+      "depth": 2,
+      "floor": 1,
+      "score": 1000
+    }
+  },
+  "summary": {
+    "runs": 396,
+    "victories": 53,
+    "deaths": 343,
+    "avgTicks": 84.8989898989899,
+    "maxTicks": 547,
+    "avgDurationMs": 15.858585858585858,
+    "maxDurationMs": 93
+  }
+}

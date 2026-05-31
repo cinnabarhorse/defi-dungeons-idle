@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Run the full agent test suite before allowing a push.
+# Bypass in emergencies: HUSKY=0 git push
+pnpm test:agent

@@ -1,0 +1,15 @@
+{
+  "installCommand": "pnpm install",
+  "functions": {
+    "apps/client/src/app/**": {
+      "runtime": "nodejs20.x",
+      "includeFiles": "data/maps/**"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/apps/client/$1"
+    }
+  ]
+}

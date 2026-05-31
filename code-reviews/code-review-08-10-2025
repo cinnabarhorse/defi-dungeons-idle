@@ -1,0 +1,54 @@
+## Code Review Checklist — 2025-10-08
+
+### Must fix before merge
+
+- [ ] Protect write API: require MAP_EDITOR_WRITE_ENABLED=true and a shared-secret header on PUT `apps/client/src/app/api/maps/[file]/chunk/route.ts`; keep disabled by default and always disallow on Vercel.
+- [ ] Keep server self-contained: inline `InventoryItem` types into `apps/server/src/types/inventory.ts` and update imports (remove cross-app import from client) — per no cross-workspace dep rule.
+- [ ] Use server-local wearables import in `MapGenerator` (replace `require('../../../../data/wearables')` with generated server-local data, e.g., `../data/wearables`).
+- [ ] Replace client-side `new Function` parsing in the map editor with a safer approach (JSON5/object-literal parser or a sandboxed Web Worker).
+- [ ] Replace `@ts-ignore` in `apps/client/src/app/initPhaser.ts` with a typed render config.
+- [ ] Gate verbose `console.log` with a debug flag; keep warnings/errors only in prod logs.
+
+### Performance and bundle size
+
+- [ ] Stop generating massive client chunk files under `apps/client/src/data/` (e.g., `chunks-dungeon.ts` ~74k lines). Do one of:
+  - [ ] Skip client targets for map chunk files in `scripts/generate-shared-files.ts` (server-only; client fetches via API), or
+  - [ ] Move them to `apps/client/generated/` and exclude from the client tsconfig.
+- [ ] Verify there are no static imports of chunk sets in the client bundle (continue fetching via `/api/maps`).
+- [ ] Convert large PNGs to WebP where feasible; include size metadata and consider atlas packing.
+
+### Maintainability
+
+- [ ] Extract and de-duplicate chunk DSL helpers (`stripJsLikeWrapper`, `transformTsFunctionsToObjects`) into a shared isomorphic module and generate into both apps; remove duplicates in editor/server.
+- [ ] Reduce pervasive `any` usage in key modules by introducing small local interfaces:
+  - [ ] `apps/client/src/game/systems/EnvironmentSystem.ts`
+  - [ ] `apps/client/src/game/GameScene.ts`
+  - [ ] `apps/server/src/utils/MapGenerator.ts`
+- [ ] Use `GAME_CONFIG.TILE_SIZE` consistently (replace hardcoded 32 where appropriate).
+- [ ] DRY `DEFAULT_MAP_FILES` between client/server loaders (single source of truth).
+- [ ] Ensure all generated files include a prominent AUTO-GENERATED header (verify all targets).
+
+### API and security
+
+- [ ] Add 405 responses for unsupported methods on the maps routes.
+- [ ] Define response types as a discriminated union (summary vs full) for `/api/maps/[file]`.
+- [ ] Rate-limit the PUT route and log actor identity for auditability.
+
+### Cleanup / unused code
+
+- [x] Remove or exclude unused `apps/client/src/data/chunks-dungeon.ts` if not referenced by client.
+- [ ] Remove legacy `apps/client/src/data/chunks.ts` if obsolete for editor/game paths.
+
+### Verification steps (after fixes)
+
+- [ ] Run `pnpm run generate:shared` and confirm client does not output map chunk files under `src/` (or they are excluded).
+- [ ] Start client; confirm map editor loads chunks via `/api/maps/*` and saving is guarded behind the feature flag + secret.
+- [ ] Build server; verify no imports from client app and that wearables import resolves locally.
+- [ ] Smoke test map generation; production logs are minimal (debug behind flag).
+
+---
+
+Notes:
+
+- Keep the server self-contained and avoid cross-app imports to prevent workspace resolution issues.
+- Prefer function declarations for helpers/utilities, named exports for components, and consistent TypeScript interfaces.

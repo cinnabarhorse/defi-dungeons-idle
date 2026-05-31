@@ -1,0 +1,102 @@
+name: golden-runs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
+
+
+      # NOTE: `actions/setup-node` with `cache: pnpm` requires pnpm to be present on PATH.
+      # If pnpm is installed after setup-node, caching fails with:
+      #   "Unable to locate executable file: pnpm"
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Create .env.test
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          NEXT_PUBLIC_THIRDWEB_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_THIRDWEB_CLIENT_ID }}
+        run: |
+          required=(SUPABASE_DB_URL SUPABASE_URL SUPABASE_ANON_KEY SUPABASE_SERVICE_ROLE_KEY)
+          missing=()
+          for var in "${required[@]}"; do
+            if [ -z "${!var:-}" ]; then
+              missing+=("$var")
+            fi
+          done
+          if [ ${#missing[@]} -gt 0 ]; then
+            echo "Missing required secrets: ${missing[*]}"
+            exit 1
+          fi
+          if [ -z "${DATABASE_URL:-}" ]; then
+            DATABASE_URL="${SUPABASE_DB_URL}"
+          fi
+          cat > .env.test <<EOF
+          SUPABASE_DB_URL=${SUPABASE_DB_URL}
+          DATABASE_URL=${DATABASE_URL}
+          SUPABASE_URL=${SUPABASE_URL}
+          SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+          SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+          NEXT_PUBLIC_THIRDWEB_CLIENT_ID=${NEXT_PUBLIC_THIRDWEB_CLIENT_ID}
+          EOF
+          cat > apps/client/.env.test <<EOF
+          NEXT_PUBLIC_THIRDWEB_CLIENT_ID=${NEXT_PUBLIC_THIRDWEB_CLIENT_ID}
+          EOF
+
+      - name: Generate shared assets
+        run: pnpm run generate:shared
+
+      - name: Run golden run suite
+        env:
+          RUN_FULL_IDLE: '1'
+          UPDATE_SNAPSHOT: '1'
+          FORCE_SNAPSHOT: '1'
+        run: |
+          echo "GOLDEN_RUNS_DATE=$(date -u +%Y-%m-%d)" >> $GITHUB_ENV
+          pnpm test:fast -- --runTestsByPath apps/server/src/lib/__tests__/idle-golden-runs.test.ts
+
+      - name: Commit golden runs
+        run: |
+          git add __snapshots__/idle-golden-runs.snap.json __fixtures__/golden-runs
+          if git diff --cached --quiet; then
+            echo "No golden-run changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(golden-runs): update snapshots (${GOLDEN_RUNS_DATE})"
+          git push origin HEAD
+
+      - name: Upload golden run artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: golden-runs
+          path: |
+            __snapshots__/idle-golden-runs.snap.json
+            __fixtures__/golden-runs/**

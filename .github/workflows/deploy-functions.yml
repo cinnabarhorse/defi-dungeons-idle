@@ -1,0 +1,36 @@
+name: Deploy Supabase Functions
+
+on:
+  push:
+    tags:
+      - 'func-*'
+      - 'all-*'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    env:
+      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      PROJECT_ID: ${{ secrets.SUPABASE_PROJECT_ID }}
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+
+      - name: Deploy Supabase Functions
+        run: |
+          for fn in \
+            goldsky-deposits \
+            daily-prize-distribution \
+            daily-summary \
+            daily-gotchi-snapshot \
+            weekly-reward-topup
+          do
+            echo "Deploying $fn"
+            supabase functions deploy "$fn" --project-ref "$PROJECT_ID" --no-verify-jwt
+          done

@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Keep pre-commit fast.
+# Heavy tests run on pre-push.
+pnpm test:fast

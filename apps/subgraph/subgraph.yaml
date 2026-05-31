@@ -1,0 +1,41 @@
+specVersion: 0.0.4
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: Contract
+    network: base
+    source:
+      address: "0xb27fa55e15be89e69b9e5babcfb30a8f67ad92a0"
+      abi: Contract
+      startBlock: 37427370
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.6
+      language: wasm/assemblyscript
+      entities:
+        - Deposit
+        - User
+        - UserTokenStakeBalance
+        - Harvest
+        - TreasuryUpdate
+        - GameTreasuryUpdate
+        - StableConfig
+        - Withdrawal
+      abis:
+        - name: Contract
+          file: ./abis/Contract.json
+      eventHandlers:
+        - event: Deposited(indexed address,indexed uint256,address,uint256,uint256,uint256,uint64)
+          handler: handleDeposited
+        - event: GameTreasuryUpdated(indexed address)
+          handler: handleGameTreasuryUpdated
+        - event: InterestHarvested(uint256,uint256,uint256)
+          handler: handleInterestHarvested
+        - event: StableConfigured(indexed address,uint8,address)
+          handler: handleStableConfigured
+        - event: TreasuryUpdated(indexed address)
+          handler: handleTreasuryUpdated
+        - event: Withdrawn(indexed address,indexed uint256,address,uint256)
+          handler: handleWithdrawn
+      file: ./src/mapping.ts

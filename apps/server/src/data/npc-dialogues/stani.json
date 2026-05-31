@@ -1,0 +1,10 @@
+{
+  "npcId": "stani",
+  "npcName": "Stani",
+  "dialogues": {
+    "greeting": {
+      "text": "Risk is a feature. Set the floor leverage once, then face the consequences.",
+      "responses": [{ "text": "Got it.", "nextDialogue": "end" }]
+    }
+  }
+}

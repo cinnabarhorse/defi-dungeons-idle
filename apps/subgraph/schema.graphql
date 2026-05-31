@@ -1,0 +1,69 @@
+type Deposit @entity {
+  id: ID!
+  depositId: BigInt!
+  user: User!
+  token: Bytes!
+  amount: BigInt!
+  yieldAmount: BigInt!
+  pointsMinted: BigInt!
+  unlockAt: BigInt!
+  withdrawn: Boolean!
+  withdrawalTx: Bytes
+  timestamp: BigInt!
+  txHash: Bytes!
+}
+
+type User @entity {
+  id: ID!
+  deposits: [Deposit!]! @derivedFrom(field: "user")
+  tokenBalances: [UserTokenStakeBalance!]! @derivedFrom(field: "user")
+}
+
+type UserTokenStakeBalance @entity {
+  id: ID!
+  user: User!
+  token: Bytes!
+  stakedAmount: BigInt!
+  updatedAt: BigInt!
+}
+
+type Harvest @entity {
+  id: ID!
+  totalAmount: BigInt!
+  treasuryPortion: BigInt!
+  gameTreasuryPortion: BigInt!
+  timestamp: BigInt!
+  txHash: Bytes!
+}
+
+type TreasuryUpdate @entity {
+  id: ID!
+  newTreasury: Bytes!
+  timestamp: BigInt!
+  txHash: Bytes!
+}
+
+type GameTreasuryUpdate @entity {
+  id: ID!
+  newGameTreasury: Bytes!
+  timestamp: BigInt!
+  txHash: Bytes!
+}
+
+type StableConfig @entity {
+  id: ID!
+  yieldTokenDecimals: Int!
+  yieldAToken: Bytes!
+  timestamp: BigInt!
+  txHash: Bytes!
+}
+
+type Withdrawal @entity {
+  id: ID!
+  user: User!
+  deposit: Deposit!
+  token: Bytes!
+  amount: BigInt!
+  timestamp: BigInt!
+  txHash: Bytes!
+}
