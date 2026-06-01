@@ -1,9 +1,9 @@
 {
-  "name": "gotchiverse-live",
+  "name": "defi-dungeons-idle",
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
-  "description": "A 2D top-down pixel world where you can play, explore, and earn with your Aavegotchi",
+  "description": "An Aavegotchi idle dungeon crawler with run-based progression, loot, crafting, and DeFi rewards",
   "workspaces": [
     "apps/*",
     "packages/*"

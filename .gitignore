@@ -17,6 +17,7 @@ build/
 # Root level compiled files from TypeScript
 *.js
 !scripts/*.js
+!jest.env.setup.js
 !*.config.js
 !jest.config.js
 !next.config.js
@@ -105,6 +106,15 @@ tmp/
 temp/
 .gitnexus/
 .gitnexus-home/
+
+# Local screenshots and generated review artifacts
+preview*.png
+*-review*.md
+TEST_COVERAGE_*.md
+TEST_FIXES_NOTES.md
+browser-testing/
+cursor-agent-ui/
+skills/
 
 # IDE
 .vscode/

@@ -16,9 +16,9 @@ import { BaseMiniAppReady } from '../components/base-miniapp/ready';
 import { DevServiceWorkerReset } from '../components/dev/DevServiceWorkerReset';
 
 export const metadata: Metadata = {
-  title: 'DeFi Dungeon',
+  title: 'DeFi Dungeons Idle',
   description:
-    'A 2D top-down pixel world where you can play, explore, and earn with your Aavegotchi.',
+    'An Aavegotchi idle dungeon crawler with run-based progression, loot, crafting, and DeFi rewards.',
   metadataBase,
   manifest: '/manifest.json',
   icons: {
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    title: 'DeFi Dungeon',
+    title: 'DeFi Dungeons Idle',
     description:
-      'A 2D top-down pixel world where you can play, explore, and earn with your Aavegotchi.',
+      'An Aavegotchi idle dungeon crawler with run-based progression, loot, crafting, and DeFi rewards.',
     url: publicUrl || undefined,
     images: [
       {
@@ -42,15 +42,15 @@ export const metadata: Metadata = {
           : '/icon-512x512.png',
         width: 512,
         height: 512,
-        alt: 'DeFi Dungeon',
+        alt: 'DeFi Dungeons Idle',
       },
     ],
   },
   twitter: {
     card: 'summary',
-    title: 'DeFi Dungeon',
+    title: 'DeFi Dungeons Idle',
     description:
-      'A 2D top-down pixel world where you can play, explore, and earn with your Aavegotchi.',
+      'An Aavegotchi idle dungeon crawler with run-based progression, loot, crafting, and DeFi rewards.',
     images: [
       metadataBase
         ? new URL('/icon-512x512.png', metadataBase).toString()
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-    title: 'DeFi Dungeon',
+    title: 'DeFi Dungeons Idle',
   },
   formatDetection: {
     telephone: false,
@@ -76,7 +76,7 @@ export const metadata: Metadata = {
         title: 'Play Now',
         action: {
           type: 'launch_miniapp',
-          name: 'DeFi Dungeon',
+          name: 'DeFi Dungeons Idle',
           url: publicUrl ?? '',
           splashImageUrl: metadataBase
             ? new URL('/images/splash.png', metadataBase).toString()
