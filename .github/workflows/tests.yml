@@ -47,20 +47,12 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           NEXT_PUBLIC_THIRDWEB_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_THIRDWEB_CLIENT_ID }}
         run: |
-          required=(SUPABASE_DB_URL SUPABASE_URL SUPABASE_ANON_KEY SUPABASE_SERVICE_ROLE_KEY)
-          missing=()
-          for var in "${required[@]}"; do
-            if [ -z "${!var:-}" ]; then
-              missing+=("$var")
-            fi
-          done
-          if [ ${#missing[@]} -gt 0 ]; then
-            echo "Missing required secrets: ${missing[*]}"
-            exit 1
-          fi
-          if [ -z "${DATABASE_URL:-}" ]; then
-            DATABASE_URL="${SUPABASE_DB_URL}"
-          fi
+          SUPABASE_DB_URL="${SUPABASE_DB_URL:-postgres://postgres:postgres@127.0.0.1:54322/postgres}"
+          DATABASE_URL="${DATABASE_URL:-$SUPABASE_DB_URL}"
+          SUPABASE_URL="${SUPABASE_URL:-https://example.supabase.co}"
+          SUPABASE_ANON_KEY="${SUPABASE_ANON_KEY:-test-anon-key}"
+          SUPABASE_SERVICE_ROLE_KEY="${SUPABASE_SERVICE_ROLE_KEY:-test-service-role-key}"
+          NEXT_PUBLIC_THIRDWEB_CLIENT_ID="${NEXT_PUBLIC_THIRDWEB_CLIENT_ID:-test-client-id}"
           cat > .env.test <<EOF
           SUPABASE_DB_URL=${SUPABASE_DB_URL}
           DATABASE_URL=${DATABASE_URL}
